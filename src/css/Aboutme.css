@@ -64,10 +64,10 @@ h1.description span::before {
 }
 @keyframes profile {
   0% {
-    content: "Web Devloper";
+    content: "Web Developer";
   }
   100% {
-    content: "Full Stack Enthusist";
+    content: "Full Stack Enthusiast";
   }
 }
 
