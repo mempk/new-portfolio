@@ -1,0 +1,30 @@
+.contact {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact_text {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact_button {
+  padding: 20px;
+  font: inherit;
+  background-color: transparent;
+  font-size: larger;
+  font-weight: 600;
+  word-spacing: 5px;
+  line-height: 26pt;
+  color: var(--primary-red);
+  border: solid 4px var(--primary-red);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.contact_button:hover {
+  background-color: var(--primary-red-hover);
+  cursor: pointer;
+}
