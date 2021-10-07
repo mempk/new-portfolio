@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  height: 50px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.header_navigation {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+
+.header_navigation_menu {
+  font-size: 22px;
+  color: #ce0010;
+}
+
+

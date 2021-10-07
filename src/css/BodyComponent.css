@@ -1,0 +1,109 @@
+.body_component {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.body_component_header {
+  height: 80px;
+  display: flex;
+  width: 100%;
+  display: none;
+}
+.body_component_header_main {
+  height: 80px;
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--primary-body);
+  top: 0;
+  position: sticky;
+}
+
+.body_component_header_main > .MuiSvgIcon-root {
+  height: 3em;
+  width: 3em;
+  color: var(--primary-red);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.body_component_main {
+  padding: 40px 20px 0px 20px;
+  align-items: flex-start;
+  display: flex;
+  min-height: 70vh;
+}
+.Component {
+  flex: 1;
+}
+.Component_header {
+  display: flex;
+  width: inherit;
+  align-items: center;
+  width: 100%;
+  font-size: clamp(25px, 6vw, 50px);
+  color: var(--secondary-color);
+  font-weight: 600;
+  column-gap: 10px;
+  justify-content: flex-start;
+}
+.Component_body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.Component_body_description {
+  flex: 0.7;
+  width: 100%;
+}
+.skill_list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, 200px));
+  overflow: hidden;
+  list-style: inside;
+  color: var(--secondary-color);
+  font-size: larger;
+  font-weight: 500;
+  letter-spacing: 1.2;
+}
+.profile_pic {
+  flex: 0.5;
+  height: inherit;
+  width: inherit;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.profile_image {
+  height: inherit;
+  width: inherit;
+  filter: opacity(0.8) drop-shadow(0 0 0 rgba(9, 9, 121, 1));
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0 var(--primary-body);
+}
+.profile_image:hover {
+  filter: opacity(1);
+}
+
+@media only screen and (max-width: 600px) {
+  .Component_body {
+    flex-direction: column;
+  }
+  .body_component_header {
+    display: flex;
+  }
+  .body_component {
+    height: 110%;
+  }
+  .skill_list {
+    grid-template-columns: repeat(2, minmax(150px, 200px));
+  }
+  .profile_image {
+    height: inherit;
+    width: inherit;
+  }
+}
