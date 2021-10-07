@@ -1,0 +1,67 @@
+.projects_div {
+  list-style: none;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  position: relative;
+}
+.singleProject {
+  width: inherit;
+  height: 24rem;
+  background-color: var(--grid-background);
+  border-radius: 15px;
+  color: var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 10px;
+  filter: opacity(0.8) drop-shadow(0 0 0 rgba(9, 9, 121, 1));
+}
+.singleProject:hover {
+  filter: opacity(1);
+}
+.singleProjectDesc {
+  padding: 30px;
+  background-color: var(--primary-body);
+}
+.singleProjectDesc:hover {
+  background-color: var(--grid-background);
+}
+.singleProject_icon {
+  display: flex;
+  justify-content: space-between;
+}
+.singleProject_title {
+  font-size: 18px;
+}
+
+.singleProject_icon > .MuiSvgIcon-root {
+  height: 3rem;
+  width: 3rem;
+}
+
+.tech_list > ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.tech_list > ul li {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-left: 0px;
+}
+.tech_list > ul li:before {
+  content: "\21E8";
+  color: var(--primary-red);
+  margin-right: 4px;
+  position: absolute;
+  left: 0px;
+}
+
+.link {
+  display: flex;
+  column-gap: 20px;
+}
