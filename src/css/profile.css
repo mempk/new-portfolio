@@ -1,0 +1,28 @@
+.profile {
+  display: flex;
+  width: inherit;
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  bottom: 0;
+  text-align: center;
+
+}
+
+.profile_icon {
+  display: flex;
+  column-gap: 20px;
+}
+
+.profile_hr {
+  padding: 0px 10px;
+  margin: 0 10px;
+  width: inherit;
+}
+@media only screen and (max-width: 600px) {
+  .profile {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
