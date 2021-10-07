@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a4a94e07.chunk.css",
+    "main.js": "/static/js/main.8b52e5fc.chunk.js",
+    "main.js.map": "/static/js/main.8b52e5fc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.51cdb329.js",
+    "runtime-main.js.map": "/static/js/runtime-main.51cdb329.js.map",
+    "static/js/2.91178f36.chunk.js": "/static/js/2.91178f36.chunk.js",
+    "static/js/2.91178f36.chunk.js.map": "/static/js/2.91178f36.chunk.js.map",
+    "static/js/3.e1bf75f9.chunk.js": "/static/js/3.e1bf75f9.chunk.js",
+    "static/js/3.e1bf75f9.chunk.js.map": "/static/js/3.e1bf75f9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a4a94e07.chunk.css.map": "/static/css/main.a4a94e07.chunk.css.map",
+    "static/js/2.91178f36.chunk.js.LICENSE.txt": "/static/js/2.91178f36.chunk.js.LICENSE.txt",
+    "static/media/brandLogo.a858d2f6.svg": "/static/media/brandLogo.a858d2f6.svg",
+    "static/media/cnrb.df835667.png": "/static/media/cnrb.df835667.png",
+    "static/media/cnss.9677a369.png": "/static/media/cnss.9677a369.png",
+    "static/media/goodeats.b98c437d.png": "/static/media/goodeats.b98c437d.png",
+    "static/media/icn.245ab27a.png": "/static/media/icn.245ab27a.png",
+    "static/media/outreach.86448d7c.png": "/static/media/outreach.86448d7c.png",
+    "static/media/portfolio.a2b5e112.jpg": "/static/media/portfolio.a2b5e112.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51cdb329.js",
+    "static/js/2.91178f36.chunk.js",
+    "static/css/main.a4a94e07.chunk.css",
+    "static/js/main.8b52e5fc.chunk.js"
+  ]
+}
